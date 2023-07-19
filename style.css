@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.hero{
+    background: #e5e5e5;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.head{
+    display: inline-flex;
+    gap: 15rem;
+    padding: 1rem;
+    align-items: center;
+}
+
+.head1{
+    display: flex;
+    align-items: center;
+}
+
+.head1 i{
+    font-size: 90px;
+    color: rgba(0,0,0,0.77);
+}
+
+.head1 h1{
+    line-height: 18px;
+    text-align: right;
+    font-size: 40px;
+    color: rgba(0,0,0,0.77);
+}
+
+.head span{
+    font-size: 20px;
+}
+
+.head ul{
+    display: flex;
+    gap: 3rem;
+    list-style-type: none;
+}
+
+.head li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.head li a:hover{
+    color: blue;
+}
+
+.hero button {
+    padding: 0.4rem;
+    background: #fff;
+    border: none;
+}
+
+.hero button a{
+    text-decoration: none;
+    color: #484646;
+}
+
+.hero button i{
+    font-size: 15px;
+}
+
+.power{
+    display: flex;
+    gap: 9rem;
+    padding: 5rem;
+    align-items: center;
+}
+
+.off{
+    padding: 1rem;
+    line-height: 30px;
+}
+
+.off h2{
+    font-size: 50px;
+    line-height: 45px;
+}
+
+
+#big{
+    background-color: rgb(35, 142, 243);
+    color: #ffff;
+    border: 1px solid rgb(35, 142, 243);
+}
+
+.off img{
+    width: 500px;
+}
+
+.about{
+    font-weight: 200;
+    padding: 2rem;
+}
+
+.off1{
+    padding-top: 12rem;
+}
+
+.off1 h3{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.bx-contact{
+    display: flex;
+    gap: 10rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact{
+    display: flex;
+    gap: 1rem;
+}
+
+.contact i{
+    position: relative;
+    padding: 10px;
+    border-radius: 50%;
+    background: white;
+    font-size: 20px;
+}
+
+.contact p{
+    padding-left: 1rem;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.contact span{
+    gap: 3rem;
+    font-size: 11px;
+    color: #484646;
+    font-weight: 700;
+}
+
+.contact h4{
+    font-size: 18px;
+    color: #484646;
+}
+
+.about{
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    gap: 3rem;
+    text-align: center; 
+    color: #484646;
+}
+
+.service{
+    padding: 5rem;
+}
+
+.service h5{
+    font-size: 25px;
+    padding-left: 6rem;
+}
+
+.container{
+    display: flex;
+    gap: 5rem;
+    padding: 6rem;
+}
+
+
+.sales{
+    border: solid #fff;
+    border-radius: 2rem;
+    padding: 1.5rem;
+    height: 255px;
+    background-color: #fff;
+    background-size: contain;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.sales img{
+    width:130px;
+    height: 5rem;
+    background-color: #fff;
+    border-radius: 15rem ;
+}
+
+.sales h6{
+    position:relative;
+    left:12rem;
+    bottom: 5.30rem;
+    color: #484646;
+    font-size: 15px;
+}
+
+.sales h1{
+    position:relative;
+    left:5rem;
+    bottom: 1rem;
+    color: black;
+    font-size: 2rem;
+}
+
+.edit{
+    display: flex;
+    gap: 18rem;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.edit h2{
+    font-size: 50px;
+    color: #484646;
+}
+
+.edit p{
+    font-size: 20px;
+    color: #484646;
+}
